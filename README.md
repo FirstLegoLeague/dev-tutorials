@@ -13,18 +13,8 @@ Snack-snize and ready to eat pieces of code for you to use.
 ## Introduction into Development: Chat application in Javascript using MHub
 This tutorial provides a brief introduction into developping with MHub using a chat application example.  
 
-<<<<<<< HEAD
 - [Episode 1](https://www.youtube.com/watch?v=VfzPSmkNXWI&list=PLm7xyTqWtniElEuRqvtezmdHpEuAGWMj9&index=1): Setting up
 - [Episode 2](https://www.youtube.com/watch?v=TRSJUfSS_LM&list=PLm7xyTqWtniElEuRqvtezmdHpEuAGWMj9&index=2): MHub
 - [Episode 3](https://www.youtube.com/watch?v=OVQxqZ4bQIM&list=PLm7xyTqWtniElEuRqvtezmdHpEuAGWMj9&index=3): A chat application
 - [Episode 4](https://www.youtube.com/watch?v=Yx1VF1vb6eA&index=4&list=PLm7xyTqWtniElEuRqvtezmdHpEuAGWMj9): A GUI for the chat
-
--[Example code]():
-=======
-- [Step 1](https://www.youtube.com/watch?v=VfzPSmkNXWI&list=PLm7xyTqWtniElEuRqvtezmdHpEuAGWMj9&index=1): Setting up
-- [Step 2](https://www.youtube.com/watch?v=TRSJUfSS_LM&list=PLm7xyTqWtniElEuRqvtezmdHpEuAGWMj9&index=2): MHub
-- [Step 3](https://www.youtube.com/watch?v=OVQxqZ4bQIM&list=PLm7xyTqWtniElEuRqvtezmdHpEuAGWMj9&index=3): A chat app 
-- [Step 4](https://www.youtube.com/watch?v=Yx1VF1vb6eA&index=4&list=PLm7xyTqWtniElEuRqvtezmdHpEuAGWMj9): GUI for chat
 - [Example code](https://github.com/FirstLegoLeague/dev-tutorials/tree/master/Chat-app%20using%20Mhub): Chat application
->>>>>>> origin/master
-
