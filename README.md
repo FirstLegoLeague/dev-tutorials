@@ -6,7 +6,81 @@ Snack-snize and ready to eat pieces of code for you to use.
 
 ## MHub in Javascript
 
+```JavaScript
+ws = new WebSocket('ws://localhost:13900');
+
+//subscribe to receive messages
+ws.onopen = function() {
+    ws.send(JSON.stringify({
+        type: 'subscribe',
+        node: 'default'
+    }));
+};
+
+//handle messages received
+ws.onmessage = function(msg) {
+    console.log(JSON.parse(msg.data));
+};
+
+//send messages
+function send(ws, topic, data) {
+    ws.send(JSON.stringify({
+        type: 'publish',
+        node: 'default',
+        data: data,
+        topic: topic
+    }));
+}
+```
+
+## MHub in Nodejs
+
+```JavaScript
+var MClient = require("mhub").MClient;
+
+var client = new MClient("ws://localhost:13900");
+
+//subscribe to receive messages
+client.on("open", function() {
+    client.subscribe("default");
+});
+
+//handle messages received
+client.on("message", function(message) {
+    console.log(message);
+});
+
+//send messages
+function send(client, topic, data) {
+	client.publish("default", topic, data);
+}
+```
+
 ## Mhub in Python
+
+```Python
+import websocket
+import json
+
+#subscribe to receive messages
+def on_open(ws):
+    ws.send('{"type":"subscribe","node":"default"}')
+
+#handle messages received
+def on_message(ws, message):
+    print json.loads(message)
+
+
+ws = websocket.WebSocketApp("ws://localhost:13900",
+                            on_message = on_message,
+                            on_open = on_open)
+
+ws.run_forever()
+
+# send messages
+def send(ws, topic, data):
+    ws.send('{"type":"publish","node":"default","topic":"'+topic+'","data":'+json.dumps(data)+'}')
+```
 
 # Tutorials
 
