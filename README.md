@@ -1,5 +1,5 @@
-# dev-tutorials
-This repo contains various development examples, tutorials and code snippets to be used to develop modules for the FIRST Lego league software. If you have any code you want to share with others please submit it through a Pull Request or email [us](mailto:info@fll-tools.com)
+# Development Tutorials & Code Snippts
+This repo contains various development examples, tutorials and code snippets to be used to develop modules for the FIRST Lego league software. If you have any code you want to share with others please submit it through a Pull Request or email [us](mailto:info@fll-tools.com). You can also join Slack for any questions you have [flldev.slack.com](https://flldev.slack.com).
 
 # Code snippets
 Snack-snize and ready to eat pieces of code for you to use.
