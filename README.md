@@ -18,5 +18,5 @@ This tutorial provides a brief introduction into developping with MHub using a c
 - [Step 3](https://www.youtube.com/watch?v=OVQxqZ4bQIM&list=PLm7xyTqWtniElEuRqvtezmdHpEuAGWMj9&index=3): A chat application
 - [Step 4](https://www.youtube.com/watch?v=Yx1VF1vb6eA&index=4&list=PLm7xyTqWtniElEuRqvtezmdHpEuAGWMj9): A GUI for the chat
 
--[Example code](https://github.com/FirstLegoLeague/dev-tutorials/tree/master/Chat-app%20using%20Mhub): Chat application
+- [Example code](https://github.com/FirstLegoLeague/dev-tutorials/tree/master/Chat-app%20using%20Mhub): Chat application
 
